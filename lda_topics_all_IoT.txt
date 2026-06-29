@@ -1,0 +1,98 @@
+LDA Topic Results
+============================================================
+
+Category: Electronic components
+Best config: k=10, alpha=0.05, beta=nan, coherence=0.7519, diversity=0.850, combined_score=0.6392
+
+Topic 00: information, disclosure, information disclosure, buffer, overflow, packet, buffer overflow, occur, server, integer
+Topic 01: attacker, vulnerability, allow, potentially, code, access, issue, memory, execution, resulting
+Topic 02: bound, needed, privilege, possible bound, check, possible, user, check lead, lead, lead local
+Topic 03: service, denial service, denial, input, validation, input validation, lead, improper, improper input, validation lead
+Topic 04: privilege, needed, escalation, escalation privilege, lead, possible, user, patch, interaction, exploitation
+Topic 05: snapdragon, iot, iot snapdragon, mobile, snapdragon mobile, connectivity, snapdragon auto, auto, connectivity snapdragon, industrial
+Topic 06: transient, frame, processing, parsing, modem, wlan, received, length, firmware, message
+Topic 07: gpu, kernel, memory, driver, kernel driver, operation, access, arm, user, gpu kernel
+Topic 08: memory, corruption, memory corruption, processing, corruption processing, buffer, ioctl, command, size, audio
+Topic 09: needed, remote, lead remote, additional execution, additional, needed user, user, user interaction, interaction needed, needed exploitation
+
+------------------------------------------------------------
+
+LDA Topic Results
+============================================================
+
+Category: Measuring equipment (non-MID)
+Best config: k=10, alpha=0.05, beta=0.01, coherence=0.6979, diversity=0.820, combined_score=0.5723
+
+Topic 00: version, command, function, used, injection, command injection, application, library, systeminformation, issue
+Topic 01: sql, injection, sql injection, electronics, delta, electronics diaenergie, delta electronics, diaenergie, exists, vulnerability exists
+Topic 02: version, prior, version prior, product, vulnerable, affected, affected product, diaenergie, diaenergie version, arbitrary
+Topic 03: crosssite, crosssite scripting, scripting, version, plugin, page, user, input, possible, path
+Topic 04: remote, access, user, allow, firmware, remote attacker, authentication, unauthenticated, information, sensitive
+Topic 05: file, code, execute, remote, malicious, execute arbitrary, arbitrary, attacker execute, data, user
+Topic 06: file, affect, result, dasylab, crafted, code, version, specially, specially crafted, exploitation
+Topic 07: device, password, web, version, interface, service, allow, affected device, vulnerability identified, identified
+Topic 08: attack, lead, manipulation, issue, remotely, component, unknown, argument, affected, exploit
+Topic 09: allows, issue, affect, issue affect, vulnerability allows, improper, monitoring, page, request, control
+
+------------------------------------------------------------
+
+LDA Topic Results
+============================================================
+
+Category: Telephones, smartphones, e-readers, wearables
+Best config: k=10, alpha=0.1, beta=0.01, coherence=0.7045, diversity=0.780, combined_score=0.5495
+
+Topic 00: validation, input, improper, input validation, improper input, validation vulnerability, allows attacker, activity, launch, attacker launch
+Topic 01: code, arbitrary, remote, execute, user, execution, interaction, user interaction, arbitrary code, code execution
+Topic 02: application, service, improper, denial, denial service, allow, check, device, network, access
+Topic 03: access, improper, control, access control, improper access, local, allows local, local attacker, control vulnerability, allows attacker
+Topic 04: exploit, allow, interface, affected, cisco, device, exploit vulnerability, allow attacker, phone, webbased
+Topic 05: scripting, crosssite, crosssite scripting, version, page, victim, malicious, vulnerable, xss, scripting xss
+Topic 06: version, user, zoom, client, android, issue, window, file, access, app
+Topic 07: file, arbitrary, arbitrary file, function, endpoint, library, request, smr apr2022, apr2022 release, apr2022
+Topic 08: local, allows local, local attacker, access, information, sensitive, attacker access, sensitive information, intent, improper
+Topic 09: execute, arbitrary, attacker execute, execute arbitrary, write, code, arbitrary code, local, local attacker, jabber
+
+------------------------------------------------------------
+LDA Topic Results
+============================================================
+
+Category: Vehicles
+Best config: k=10, alpha=0.05, beta=0.1, coherence=0.7695, diversity=0.810, combined_score=0.6233
+
+Topic 00: vehicle, data, access, file, model, public, version, vulnerability exists, exists, allows
+Topic 01: code, execute, result, specific, execution, code execution, context, arbitrary code, lack, result lack
+Topic 02: execute, kenwood dmx958xr, dmx958xr, kenwood, code, update, firmware, firmware update, required, vulnerability vulnerability
+Topic 03: network, used, disclosed, local network, disclosed public, lead, local, manipulation lead, unknown, exploit disclosed
+Topic 04: tesla, tesla model, model, allows, vehicle, order exploit, obtain ability, ability, order, attacker obtain
+Topic 05: authentication, bypass, required, networkadjacent attacker, allows networkadjacent, networkadjacent, allows, required exploit, authentication required, vulnerability vulnerability
+Topic 06: request, network, network request, overflow, buffer, buffer overflow, specially crafted, crafted, attacker send, specially
+Topic 07: code, attack, version, control, vehicle, access, prior, allows, possible, command
+Topic 08: manufactured, infotainment, identified, issue, allows, code execution, execution, code, affect, send
+Topic 09: attack, disclosure, way, respond way, respond, vendor contacted, vendor, contacted early, contacted, disclosure respond
+
+------------------------------------------------------------
+
+LDA Topic Results
+============================================================
+
+Category: Machinery
+Best config: k=15 alpha=0.05 beta=0.01, coherence=0.7479 diversity=0.713, combined_score=0.5333
+
+Topic 00: version, product, user, affected, read, allow, multiple, file, affected product, privilege
+Topic 01: version, simatic, cpu, siplus, version simatic, version siplus, vulnerability identified, identified, device, affected
+Topic 02: series, version, electric, prior, mitsubishi, mitsubishi electric, version prior, melsec, unauthenticated attacker, module
+Topic 03: arbitrary, execute, code, execute arbitrary, remote, http, authenticated, user, crosssite, request
+Topic 04: access, user, information, password, version, sensitive, credential, file, sensitive information, data
+Topic 05: product, version, affected product, fasttools, affected, product version, plc, denialofservice, fault, electric
+Topic 06: file, code, malicious, remote, parsing, execute, electric, result, fuji, fuji electric
+Topic 07: issue, authentication, affect, issue affect, abb, bypass, gain, access, product, exists
+Topic 08: file, process, lack, current, proper, current process, validation, execute, code, usersupplied
+Topic 09: web, server, input, allow, remote, authenticated, engineering, code, web server, improper
+Topic 10: remote, remote attacker, unauthenticated, device, unauthenticated remote, allows, allows unauthenticated, denialofservice, command, attack
+Topic 11: service, device, cause, controller, denial service, denial, version, vulnerability exists, affected, exists
+Topic 12: file, code, execution, buffer, code execution, crafted, lead, arbitrary, overflow, specially crafted
+Topic 13: series, robot, connection, network, software, firmware, packet, send, functionality, affect
+Topic 14: packet, information, modification, crafted, write, file, resulting, exists, trigger, trigger vulnerability
+
+
