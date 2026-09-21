@@ -84,7 +84,4 @@ Txt files:
 	Gefaalde blocks voor extraction 3
 
 
-
-Als er vragen zijn over code/keuzes, mail mij gerust naar k.w.rijnders@students.uu.nl of als dit niet meer in gebruik is naar kevinwesleyrijnders@gmail.com
-
 	
