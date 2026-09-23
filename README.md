@@ -1,6 +1,6 @@
 # Automated Vulnerability Pattern Analysis for IoT Inspection Prioritization
 
-Master's thesis project analyzing \~266,000 CVE records from the European Union
+Master's thesis project analyzing ~266,000 CVE records from the European Union
 Vulnerability Database (EUVD) to help identify patterns in vulnerability severity,
 exploitability, and product category, supporting data-driven inspection
 prioritization for IoT products under the EU Radio Equipment Directive (RED).
@@ -28,27 +28,27 @@ with **large effect sizes** (ε² ≈ 0.24 and ≈ 0.22 respectively).
 * Topic modelling found **no consistent thematic distinction** between
 high-risk and low-risk categories. The severity differences are not explained
 by different kinds of vulnerabilities being reported.
-* Built a two-tier taxonomy (a broad \~100-category version and a curated
-30-category version) from \~21,700 unique raw product labels with no
+* Built a two-tier taxonomy (a broad ~100-category version and a curated
+30-category version) from ~21,700 unique raw product labels with no
 existing standard classification. A pre-determined taxonomy from the RDI resulted
 in larger effect sizes.
 
 ## Pipeline
 
 ```
-01\\\_Pulling data API.ipynb           → pull raw records from the EUVD API
-02\\\_Initial data creation.ipynb      → clean and prepare the raw dataset
-03\\\_Data\\\_exploration.ipynb           → initial EDA on the cleaned dataset
-04\\\_Mistral call.ipynb               → LLM batch calls for product categorization
-05\\\_First/Second/Third\\\_API\\\_call\\\_
+01_Pulling data API.ipynb           → pull raw records from the EUVD API
+02_Initial data creation.ipynb      → clean and prepare the raw dataset
+03_Data_exploration.ipynb           → initial EDA on the cleaned dataset
+04_Mistral call.ipynb               → LLM batch calls for product categorization
+05_First/Second/Third_API_call_
     extraction.ipynb                → parse raw LLM batch output into usable data
-06\\\_Kruskal wallis\\\*.ipynb            → statistical testing across categories
-07\\\_Individual LDA\\\*.ipynb            → per-category topic modelling
-07\\\_LDA topic analysis.ipynb         → aggregate/compare topic modelling results
-08\\\_Html converter.py                → generates the HTML to visually display the topic analysis
+06_Kruskal wallis*.ipynb            → statistical testing across categories
+07_Individual LDA*.ipynb            → per-category topic modelling
+07_LDA topic analysis.ipynb         → aggregate/compare topic modelling results
+08_Html converter.py                → generates the HTML to visually display the topic analysis
 ```
 
-*(Files with an `\\\_IoT` suffix repeat the analysis on the IoT-specific subset
+*(Files with an `_IoT` suffix repeat the analysis on the IoT-specific subset
 of the data.)*
 
 ## Tech stack
@@ -75,9 +75,6 @@ should not be read as a severity predictor.
 ```bash
 pip install -r requirements.txt
 ```
-
-*(add a `requirements.txt` — pandas, scikit-learn, gensim, scipy, seaborn,
-matplotlib, and the Azure/Mistral client library you used)*
 
 \---
 
