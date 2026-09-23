@@ -78,5 +78,5 @@ pip install -r requirements.txt
 
 \---
 
-Full methodology and results can be found in the [corresponding thesis (Kevin Rijnders, 2026)](https://studenttheses.uu.nl/items/1e296969-f143-441c-9c28-46fa88bddcb5)
+Full methodology and results can be found in the corresponding [thesis (Kevin Rijnders, 2026)](https://studenttheses.uu.nl/items/1e296969-f143-441c-9c28-46fa88bddcb5)
 
