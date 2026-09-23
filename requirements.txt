@@ -1,0 +1,28 @@
+# Repository notebooks use Python 3.12.10.
+
+# Data analysis / numerical computing
+numpy
+pandas
+scipy
+
+# Machine learning / topic modelling
+scikit-learn
+gensim
+
+# NLP / text processing
+nltk
+wordcloud
+
+# Plotting / visualisation
+matplotlib
+seaborn
+
+# Statistical post-hoc tests
+scikit-posthocs
+
+# API / HTTP
+requests
+mistralai
+
+# Progress bars
+tqdm
