@@ -1,4 +1,4 @@
-# Automated Vulnerability Pattern Analysis for IoT Inspection Prioritization
+# CVE pattern analysis in the EUVD using product taxonomy clustering and risk-based filtering
 
 Master's thesis project analyzing ~266,000 CVE records from the European Union
 Vulnerability Database (EUVD) to help identify patterns in vulnerability severity,
