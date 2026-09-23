@@ -75,9 +75,6 @@ should not be read as a severity predictor.
 pip install -r requirements.txt
 ```
 
-*(add a `requirements.txt` — pandas, scikit-learn, gensim, scipy, seaborn,
-matplotlib, and the Azure/Mistral client library you used)*
-
 \---
 
 Full methodology and results are written up in the accompanying thesis.
